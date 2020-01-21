@@ -1,0 +1,15 @@
+comment: "This issue is closed because it does not meet our issue template. Please read it."
+issueConfigs:
+- content:
+# Bug report
+  - "Expected Behavior"
+  - "Current Behavior"
+  - "Steps to Reproduce"
+  - "Detailed Description"
+- content:
+# Feature request
+  - "Use Case"
+  - "Expected Behavior"
+  - "Other Information"
+caseInsensitive: false
+label: "closed by bot"
