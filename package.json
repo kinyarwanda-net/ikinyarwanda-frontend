@@ -1,0 +1,39 @@
+{
+  "name": "ikinyarwanda-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "CI=true && vue-cli-service test:unit --no-cache -u --detectOpenHandles"
+  },
+  "dependencies": {
+    "babel-jest": "^25.1.0",
+    "bootstrap-vue": "^2.2.2",
+    "core-js": "^3.4.4",
+    "eslint-plugin-prettier": "^3.1.2",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@vue/cli-plugin-babel": "^4.1.2",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-unit-jest": "^4.1.2",
+    "@vue/cli-service": "^4.1.2",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/test-utils": "^1.0.0-beta.31",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-jest": "^3.0.5",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
