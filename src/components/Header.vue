@@ -1,6 +1,8 @@
 <template>
   <header>
-    <img alt="Ikinyarwanda" src="@/assets/images/logo.svg" />
+    <nav class="bg-primary">
+      <img alt="Ikinyarwanda" src="@/assets/images/logo.svg" />
+    </nav>
   </header>
 </template>
 
