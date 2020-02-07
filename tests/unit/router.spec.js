@@ -4,6 +4,7 @@ import VueRouter from 'vue-router';
 import Home from '../../src/pages/home/index.vue';
 import router from '../../src/router/index.js';
 
+
 const localVue = createLocalVue();
 localVue.use(VueRouter);
 
