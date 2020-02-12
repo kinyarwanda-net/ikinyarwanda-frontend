@@ -14,9 +14,10 @@
     "bootstrap-vue": "^2.2.2",
     "core-js": "^3.4.4",
     "eslint-plugin-prettier": "^3.1.2",
-    "vue": "^2.6.11",
-    "vue-router": "^3.1.5",
-    "vuex": "^3.1.2"
+    "vuex": "^3.1.2",
+    "vue": "^2.6.10",
+    "vue-i18n": "^8.15.3",
+    "vue-router": "^3.1.5"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.8.3",
