@@ -4,10 +4,55 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
 .bg-primary {
   background: #006fde;
 }
 
 .text-primary {
   color: #006fde;
+}
+
+.container {
+  max-width: 1100px;
+}
+
+.radius-1 {
+  border-radius: 4px !important;
+}
+
+.radius-2 {
+  border-radius: 8px !important;
+}
+
+.radius-3 {
+  border-radius: 12px !important;
+}
+
+.radius-4 {
+  border-radius: 16px !important;
+}
+
+.radius-5 {
+  border-radius: 22px !important;
+}
+
+.radius-6 {
+  border-radius: 50% !important;
 }
