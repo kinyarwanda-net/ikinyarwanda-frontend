@@ -12,7 +12,7 @@
           </div>
         </div>
       </div>
-      <span class="photo-copyright">&copy; Photo by <b>Kigali Convention Centre</b></span>
+      <span class="photo-copyright">&copy; Photo <span> {{ $t("message.by") }} </span> <b>Kigali Convention Centre</b></span>
     </div>
   </component>
 </template>

@@ -15,7 +15,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 
 
 import VueI18n from 'vue-i18n';
-import text from './locales/text';
+import messages from './locales/text';
 Vue.use(VueI18n)
 Vue.use(BootstrapVue);
 Vue.config.productionTip = false;
@@ -27,7 +27,7 @@ Vue.component('icon', FontAwesomeIcon);
 
 const i18n = new VueI18n({
   locale: 'kiny',
-  text
+  messages
 })
 new Vue({
   store,

@@ -1,16 +1,8 @@
-const text = {
-  kiny: {
-    message: {
-      home: 'Ahabanza',
-      about: 'Abo turibo'
-    }
-  },
-  en: {
-    message: {
-      home: 'Home',
-      about: 'About'
-    }
-  }
+import kiny from './kiny'
+import en from './en'
+const messages = {
+  kiny,
+  en
 }
 
-export default text
+export default messages
