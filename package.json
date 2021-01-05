@@ -9,7 +9,7 @@
     "test": "CI=true && vue-cli-service test:unit --no-cache -u --detectOpenHandles"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-jest": "^25.1.0",
     "bootstrap-vue": "^2.2.2",
     "core-js": "^3.4.4",
